@@ -1,0 +1,64 @@
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main{
+    margin-left: 20%;
+    margin-right: 20%;
+    background: white;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#header{
+    margin-bottom: 50px;
+}
+
+
+article{
+    text-align: left;
+    border: thin solid black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#dropdowns{
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown {
+    border: 1px solid #777;
+    border-radius: 4px;
+    padding: 0 5px;
+    width:200px;
+    background-color:#fff;
+    position:relative;
+    text-align: left;
+    margin-right: 10px;
+  }
+
+  .dropdown label{
+    font-size:8px;
+    text-transform: uppercase;
+    color: #777;
+    padding: 8px 0px;  
+    top:6px;
+  }
+  
+  select{
+    background-color: #fff;
+    border:0px;
+    height:25px ;
+    font-size: 16px;
+    width: 100%
+  }
+
+  #loadArticle{
+      margin: 10px;
+  }
+
