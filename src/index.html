@@ -5,49 +5,36 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>My Newsletter</title>
+        <script src="js/ApiService.js" defer></script>
         <script src="js/index.js" defer></script>
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <main>
-            <section id="header">
-                <h1>News vom 10.05.2022</h1>
-                <div id="dropdowns">
-                    <div class="dropdown">
-                        <label for="cat">Nach Kategorie filtern</label>
-                        <select name="cat" id="cat">
-                            <option value="kat0">Keine</option>
-                            <option value="kat1">Kategorie 1</option>
-                            <option value="kat2">Kategorie 2</option>
-                            <option value="kat3">Kategorie 3</option>
-                        </select>
-                    </div>
-                    <div class="dropdown">
-                        <label for="sort">Sortieren nach...</label>
-                        <select name="sort" id="sort">
-                            <option value="sort0">Keine</option>
-                            <option value="sort1">Uhrzeit</option>
-                            <option value="sort2">Titel</option>
-                            <option value="sort3">Tag</option>
-                        </select>
-                    </div>
+        <div id="header">
+            <h1>News vom 10.05.2022</h1>
+            <div id="dropdowns">
+                <div class="dropdown">
+                    <label for="cat">Nach Kategorie filtern</label>
+                    <select name="cat" id="cat">
+                        <option value="none">Keine</option>
+                    </select>
                 </div>
-            </section>
-            <section  id="news">
-                <article>
-                    <h3>News Titel</h3>
-                    <p>News inhalt</p>
-                    <a href="#">Artikel lesen...</a>
-                </article>
-                <article>
-                    <h3>News Titel</h3>
-                    <p>News inhalt</p>
-                    <a href="#">Artikel lesen...</a>
-                </article>
-            </section>
+                <div class="dropdown">
+                    <label for="sort">Sortieren nach...</label>
+                    <select name="sort" id="sort">
+                        <option value="time">Uhrzeit</option>
+                        <option value="title">Titel</option>
+                        <option value="tag">Tag</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <main>
+            <section  id="loading"><div class="lds"><div></div><div></div><div></div></div></section>
+            <section  id="news"></section>
            
             <section id="loadArticle">
-                <a href="#">Weitere Artikel laden...</a>
+                <a href="javascript:void(0)" id="loadArticleLink">Weitere Artikel laden</a>
             </section>
           </div>
        </main>
