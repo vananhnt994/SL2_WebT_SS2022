@@ -6,6 +6,8 @@ Fragen:
 - Dürfen die Artikel um zusätzliche Infos anreichern? Bspw. mit Tag und Title unter der Überschrift - ja wir müssen aber kein attribute/daten ergänzen. 
 (Zumindest für unsere Tests sollten sie drin bleiben)
 
+Vorschlag: Handons 4 mit Fetch API schauen
+
 
 ToDos:
 - Testing
