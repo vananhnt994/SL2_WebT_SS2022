@@ -22,7 +22,6 @@ document.getElementById('cat').addEventListener('input', function (event) {
     } else {
         document.getElementById('tag').style = "display:inline"
     }
-
 });
 
 //change Event-Handler für das Sortieren von Artikeln
