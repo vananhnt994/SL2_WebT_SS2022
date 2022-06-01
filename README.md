@@ -1,4 +1,8 @@
 # SL2_WebT_SS2022
+## Das Repository klonen
+- git clone https://github.com/vananhnt994/SL2_WebT_SS2022.git
+## How to start
+- Index.html öffnen
 ## Browser
 - Getestet mit Chrome
 ## Besonderheiten
