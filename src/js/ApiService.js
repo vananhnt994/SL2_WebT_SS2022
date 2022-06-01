@@ -97,7 +97,7 @@ class ApiService {
 
         //gehe durch jeden Artikel und generiere HTML    
         for (var i = this.loadArtFrom; i < this.loadArtTo; i++) {
-            let html = `<article><h3>${arr[i].title}</h3><span>${arr[i].tag} | ${arr[i].time}</span><p>${arr[i].text}</p><a href="${arr[i].url}" target="_blank">Artikel lesen...</a></article>`
+            let html = `<article><h3>${arr[i].title}</h3><span>#${arr[i].tag} | Uhrzeit: ${arr[i].time}</span><p>${arr[i].text}</p><a href="${arr[i].url}" target="_blank">Artikel lesen...</a></article>`
             let elem = document.querySelector('#news')
             elem.innerHTML = elem.innerHTML + html
         }

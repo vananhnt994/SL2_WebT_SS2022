@@ -17,6 +17,12 @@ document.getElementById('cat').addEventListener('input', function (event) {
     apiService.clearNews() //clear news area
     apiService.getData(event.target.value)
     document.getElementById('loadArticleLink').style = "display:inline" //reset visibility of button
+    if(document.getElementById('cat').value != 'none') {
+        document.getElementById('tag').style = "display:none"
+    } else {
+        document.getElementById('tag').style = "display:inline"
+    }
+
 });
 
 //change Event-Handler für das Sortieren von Artikeln
