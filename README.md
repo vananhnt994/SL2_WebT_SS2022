@@ -1,15 +1,6 @@
 # SL2_WebT_SS2022
-
-Fragen:
-- Dürfen die vorgegebenen Methoden in der Klasse ApiService.js um das Stichwort async erweitert werden? - Ja
-- Darf die Klasse ApiService überhaupt um eigene Variablen, Methoden etc. erweitert werden oder brauchen wir dafür eine eigene Klasse? - ApiService darf verwendet und erweitert werden, entsprechend importieren. 
-- Dürfen die Artikel um zusätzliche Infos anreichern? Bspw. mit Tag und Title unter der Überschrift - ja wir müssen aber kein attribute/daten ergänzen. 
-(Zumindest für unsere Tests sollten sie drin bleiben)
-
-Vorschlag: Handons 4 mit Fetch API schauen
-
-
-ToDos:
-- Testing
-
-Getestet mit Chrome
+## Browser
+- Getestet mit Chrome
+## Besonderheiten
+- Sortierung nach Tag wurde bewusst rausgenommen, wenn wir nach einer bestimmten Kategorie filtern mit Ausnahme von "Keine", damit die fehlende Sortierung den User nicht verwirrt
+- Tag und Uhrzeit unter den einzelnen Titeln haben wir eingeblendet gelassen um die Bewertung zu erleichtern.
